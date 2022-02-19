@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Music Player</title>
+        <!--fontawesome css1-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!--custom css1-->
+        <link href="./css/style.css" rel="stylesheet" type="text/css"/>
+    </head>
+        <body>
+            <div class="container">
+
+                <div class="musicContainer">
+                    <i class="fa-solid fa-bars fa-2x navbars"></i>
+
+                <div class="musicList">
+                    <!-- <div class="musicListItems">1. Track 1</div> -->
+                </div>
+
+                <div class="musicName"></div>
+
+                <audio src="./music/track6.mp3" class="audio" >
+                    Your browser doesn't support audio element.    
+                </audio>
+
+                <div class="control">
+                    <div class="musicPlayer">
+                        <span class="playAndCurrentTime">00:00 / 00:00</span>
+    
+                        <div class="progressBar">
+                            <div class="currentProgress"></div>
+                        </div>
+    
+                        <div class="musicButtons">
+                            <i class="fa-solid fa-backward backward"></i>
+                            <i class="fa-solid fa-play play"></i>
+                            <i class="fa-regular fa-circle-pause pause"></i>
+                            <i class="fa-solid fa-forward forward"></i>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+<script src="./js/app.js" type="text/javascript"></script>
+        </body>
+</html>
